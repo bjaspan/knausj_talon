@@ -10,10 +10,7 @@ Branches:
 * local: main but with all [feature branch]es merged in plus any
   personal changes that I do not (yet?) plan to suggest for merging
   upstream. This is what I use for dictation with Talon; it lets me
-  use all the features I have in development.
-
-My current personal changes:
-
-* Improved dictation formatting commands in bjaspan-dictation.talon.
-* drowse command
-* mixed mode command (though I do not use mixed mode anymore)
+  use all the features I have in development.  My current personal changes:
+  * Improved dictation formatting commands in bjaspan-dictation.talon.
+  * drowse command
+  * mixed mode command (though I do not use mixed mode anymore)
