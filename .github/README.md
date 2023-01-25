@@ -5,8 +5,8 @@ my local workstation.
 Branches:
 
 * main: A pristine copy of the upstream origin.
-* <feature branch>: Feature development not yet merged upstream.
-* local: main but with all <feature branch>es merged in plus any
+* [feature branch]: Feature development not yet merged upstream.
+* local: main but with all [feature branch]es merged in plus any
   personal changes that I do not (yet?) plan to suggest for merging
   upstream. This is what I use for dictation with Talon; it lets me
   use all the features I have in development.
