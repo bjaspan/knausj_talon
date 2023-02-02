@@ -15,6 +15,7 @@ format <user.format_text> [over]: user.dictation_insert_raw(format_text)
 # word conflicts.
 hammer <user.text> [over]: user.dictation_insert_raw(user.formatted_text(text, 'PUBLIC_CAMEL_CASE'))
 snake <user.text> [over]: user.dictation_insert_raw(user.formatted_text(text, 'SNAKE_CASE'))
+all caps <user.text> [over]: user.dictation_insert_raw(user.formatted_text(text, 'ALL_CAPS'))
 
 # Fluid commands for spelling arbitrary words in lower or upper case.
 spell <user.letters>: user.dictation_insert_raw(letters)
@@ -31,3 +32,5 @@ pee <user.number_string>:
 # The format_text capture takes user.text so "paste that" appears literally.
 # Context override for the action?
 paste that: user.dictation_insert_raw(clip.text())
+
+bug link: "b/"
